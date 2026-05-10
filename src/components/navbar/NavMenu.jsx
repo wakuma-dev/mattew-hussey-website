@@ -16,7 +16,7 @@ export default function NavMenu() {
             <NavLink
               to={item.path}
               className={({ isActive }) =>
-                `text-[16px] leading-[20px] font-light transition-all duration-150 ${
+                `font-kiona text-[16px] leading-[20px] font-light transition-all duration-150 ${
                   state.theme === "light" ? "text-black" : "text-white"
                 } ${isActive ? "text-[#f54b5d]" : ""}`
               }

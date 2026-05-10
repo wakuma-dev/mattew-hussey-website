@@ -25,6 +25,11 @@ import enButton from "./locales/en/button.json"
 import esButton from "./locales/es/Button.json"
 import itButton from "./locales/it/button.json"
 import zhButton from "./locales/zh/button.json"
+import amMain from "./locales/am/main.json"
+import enMain from "./locales/en/main.json"
+import esMain from "./locales/es/main.json"
+import itMain from "./locales/it/main.json"
+import zhMain from "./locales/zh/main.json"
 i18n.use(initReactI18next).init({
     resources: {
     en: {
@@ -33,7 +38,8 @@ i18n.use(initReactI18next).init({
          ...enLogo,
          ...enHome,
          ...enBanner,
-         ...enButton
+         ...enButton,
+         ...enMain
         },
 
     },
@@ -43,7 +49,8 @@ i18n.use(initReactI18next).init({
         ...amLogo,
         ...amHome,
         ...amBanner,
-        ...amButton
+        ...amButton,
+        ...amMain
     },
     },
     es: {
@@ -52,7 +59,8 @@ i18n.use(initReactI18next).init({
             ...esLogo,
             ...esHome,
             ...esBanner,
-            ...esButton
+            ...esButton,
+            ...esMain
         },
     },
     zh: {
@@ -61,7 +69,8 @@ i18n.use(initReactI18next).init({
             ...zhLogo,
             ...zhHome,
             ...zhBanner,
-            ...zhButton
+            ...zhButton,
+            ...zhMain
         },
     },
     it: {
@@ -70,7 +79,8 @@ i18n.use(initReactI18next).init({
             ...itLogo,
             ...itHome,
             ...itBanner,
-            ...itButton
+            ...itButton,
+            ...itMain
         },
     },
 

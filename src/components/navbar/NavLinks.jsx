@@ -1,7 +1,7 @@
 const NavLinks = [
   { path: "/getcoaching", name: "getcoaching" },
   { path: "/freeresources", name: "freeresources" },
-  { path: "/successstory", name: "successstory" },
+  { path: "/successstory", name: "sucessstory" },
   { path: "/blog", name: "blog" },
 ];
 
