@@ -34,7 +34,7 @@ import amTest from "./locales/am/test.json"
 import enTest from "./locales/en/test.json"
 import esTest from "./locales/es/test.json"
 import itTest from "./locales/it/test.json"
-import zhTest from "./locales/it/test.json"
+import zhTest from "./locales/zh/test.json"
 i18n.use(initReactI18next).init({
     resources: {
     en: {
