@@ -35,10 +35,22 @@ import enTest from "./locales/en/test.json"
 import esTest from "./locales/es/test.json"
 import itTest from "./locales/it/test.json"
 import zhTest from "./locales/zh/test.json"
+import amFooter from "./locales/am/footer.json"
+import enFooter from "./locales/en/footer.json"
+import esFooter from "./locales/es/footer.json"
+import itFooter from "./locales/it/footer.json"
+import zhFooter from "./locales/zh/footer.json"
+import amDesc from "./locales/am/desc.json"
+import enDesc from "./locales/en/desc.json"
+import esDesc from "./locales/es/desc.json"
+import itDesc from "./locales/it/desc.json"
+import zhDesc from "./locales/zh/desc.json"
 i18n.use(initReactI18next).init({
     resources: {
     en: {
     translation: {
+        ...enDesc,
+        ...enFooter,
         ...enTest,
          ...enNav,
          ...enLogo,
@@ -51,6 +63,8 @@ i18n.use(initReactI18next).init({
     },
     am: {
     translation: {
+        ...amDesc,
+        ...amFooter,
         ...amTest,
         ...amNav,
         ...amLogo,
@@ -62,6 +76,8 @@ i18n.use(initReactI18next).init({
     },
     es: {
         translation: {
+            ...esDesc,
+            ...esFooter,
             ...esTest,
             ...esNav,
             ...esLogo,
@@ -73,6 +89,8 @@ i18n.use(initReactI18next).init({
     },
     zh: {
         translation: {
+            ...zhDesc,
+            ...zhFooter,
             ...zhTest,
             ...zhNav,
             ...zhLogo,
@@ -84,6 +102,8 @@ i18n.use(initReactI18next).init({
     },
     it: {
         translation: {
+            ...itDesc,
+            ...itFooter,
             ...itTest,
             ...itNav,
             ...itLogo,

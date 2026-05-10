@@ -9,3 +9,8 @@
     font-weight: normal;
     font-style: normal;
 }
+html,
+body {
+    overflow-x: hidden;
+    max-width: 100%;
+}
