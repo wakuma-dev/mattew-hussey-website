@@ -9,7 +9,7 @@ const Blog = lazy(() => import("./pages/Blog"));
 
 const App = () => {
   return (
-    <BrowserRouter basename="/mattew-hussey-website">
+    <BrowserRouter basename="/">
       <Suspense fallback={<p>Loading...</p>}>
         <Routes>
           <Route path="/" element={<MainLayout />}>
