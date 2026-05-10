@@ -9,7 +9,7 @@ export default function NavMenu() {
   const { t } = useTranslation();
 
   return (
-    <nav className="hidden md:flex items-center gap-4">
+    <nav className="hidden lg:flex items-center gap-4">
       <ul className="flex items-center gap-6">
         {NavLinks.map((item) => (
           <li key={item.name}>

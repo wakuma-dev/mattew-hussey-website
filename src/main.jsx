@@ -4,11 +4,13 @@ import './index.css'
 import ThemeProvider from './context/ThemeProvider.jsx';
 import "./i18n";
 import App from './App.jsx'
-
+import RouteProvider from './context/RouteProvider.jsx';
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <ThemeProvider>
-      <App />
+      <RouteProvider>
+        <App />
+      </RouteProvider>
     </ThemeProvider>
   </StrictMode>,
 );
