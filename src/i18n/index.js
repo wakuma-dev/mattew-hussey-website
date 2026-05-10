@@ -20,6 +20,11 @@ import enBanner from "./locales/en/Banner.json"
 import itBanner from "./locales/it/Banner.json"
 import zhBanner from "./locales/zh/Banner.json"
 import esBanner from "./locales/es/Banner.json"
+import amButton from "./locales/am/button.json"
+import enButton from "./locales/en/button.json"
+import esButton from "./locales/es/Button.json"
+import itButton from "./locales/it/button.json"
+import zhButton from "./locales/zh/button.json"
 i18n.use(initReactI18next).init({
     resources: {
     en: {
@@ -27,7 +32,8 @@ i18n.use(initReactI18next).init({
          ...enNav,
          ...enLogo,
          ...enHome,
-         ...enBanner
+         ...enBanner,
+         ...enButton
         },
 
     },
@@ -36,7 +42,8 @@ i18n.use(initReactI18next).init({
         ...amNav,
         ...amLogo,
         ...amHome,
-        ...amBanner
+        ...amBanner,
+        ...amButton
     },
     },
     es: {
@@ -44,7 +51,8 @@ i18n.use(initReactI18next).init({
             ...esNav,
             ...esLogo,
             ...esHome,
-            ...esBanner
+            ...esBanner,
+            ...esButton
         },
     },
     zh: {
@@ -52,7 +60,8 @@ i18n.use(initReactI18next).init({
             ...zhNav,
             ...zhLogo,
             ...zhHome,
-            ...zhBanner
+            ...zhBanner,
+            ...zhButton
         },
     },
     it: {
@@ -60,7 +69,8 @@ i18n.use(initReactI18next).init({
             ...itNav,
             ...itLogo,
             ...itHome,
-            ...itBanner
+            ...itBanner,
+            ...itButton
         },
     },
 
