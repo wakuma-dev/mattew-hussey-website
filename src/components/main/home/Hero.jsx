@@ -9,7 +9,7 @@ const Hero = () => {
     const {t} = useTranslation();
   return (
     <div
-      className={`w-full min-h-screen transition-all duration-150 px-4 sm:px-6 md:px-10 lg:px-12
+      className={`w-full h-auto md:min-h-screen transition-all duration-150 px-4 sm:px-6 md:px-10 lg:px-12 py-4
      ${state.theme === "light" ? "bg-[#f6f7f8] text-black" : "bg-[#181a20] text-white"}`}
     >
       <div className="flex flex-col items-center md:items-start text-center md:text-left gap-3 ml-0 md:ml-10 py-8">

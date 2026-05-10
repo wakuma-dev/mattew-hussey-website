@@ -7,7 +7,7 @@ export default function Logo() {
   const { t } = useTranslation();
 
   return (
-    <div className="flex items-center gap-1">
+    <div className="flex items-center gap-1 z-40">
       <div
         className={`flex items-center justify-center p-2 border rounded-full ${
           state.theme === "light"

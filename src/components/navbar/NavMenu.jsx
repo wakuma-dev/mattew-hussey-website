@@ -1,8 +1,8 @@
 import { useContext } from "react";
 import { ThemeContext } from "../../context/ThemeProvider";
-import NavLinks from "./NavLinks";
 import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import NavItems from "./NavItems";
 
 export default function NavMenu() {
   const { state } = useContext(ThemeContext);
@@ -11,7 +11,7 @@ export default function NavMenu() {
   return (
     <nav className="hidden lg:flex items-center gap-4">
       <ul className="flex items-center gap-6">
-        {NavLinks.map((item) => (
+        {NavItems.map((item) => (
           <li key={item.name}>
             <NavLink
               to={item.path}
