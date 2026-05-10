@@ -30,10 +30,16 @@ import enMain from "./locales/en/main.json"
 import esMain from "./locales/es/main.json"
 import itMain from "./locales/it/main.json"
 import zhMain from "./locales/zh/main.json"
+import amTest from "./locales/am/test.json"
+import enTest from "./locales/en/test.json"
+import esTest from "./locales/es/test.json"
+import itTest from "./locales/it/test.json"
+import zhTest from "./locales/it/test.json"
 i18n.use(initReactI18next).init({
     resources: {
     en: {
     translation: {
+        ...enTest,
          ...enNav,
          ...enLogo,
          ...enHome,
@@ -45,6 +51,7 @@ i18n.use(initReactI18next).init({
     },
     am: {
     translation: {
+        ...amTest,
         ...amNav,
         ...amLogo,
         ...amHome,
@@ -55,6 +62,7 @@ i18n.use(initReactI18next).init({
     },
     es: {
         translation: {
+            ...esTest,
             ...esNav,
             ...esLogo,
             ...esHome,
@@ -65,6 +73,7 @@ i18n.use(initReactI18next).init({
     },
     zh: {
         translation: {
+            ...zhTest,
             ...zhNav,
             ...zhLogo,
             ...zhHome,
@@ -75,6 +84,7 @@ i18n.use(initReactI18next).init({
     },
     it: {
         translation: {
+            ...itTest,
             ...itNav,
             ...itLogo,
             ...itHome,

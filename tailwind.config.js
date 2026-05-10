@@ -5,6 +5,7 @@ export default {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
         kiona: ["Kiona", "sans-serif"],
+        avenir: ["Avenir", "Avenir Next", "sans-serif"],
       },
     },
   },
